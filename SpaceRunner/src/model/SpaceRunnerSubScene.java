@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
-
-/**
- *
- * @author Ulima
- */
 
 import javafx.animation.TranslateTransition;
 import javafx.scene.SubScene;
@@ -19,11 +10,14 @@ import javafx.scene.layout.BackgroundPosition;
 import javafx.scene.layout.BackgroundRepeat;
 import javafx.util.Duration;
 
-public class SpaceRunnerSubScene extends SubScene {
+public class SpaceRunnerSubScene extends SubScene {//inheritance
+
+
     private final String BACKGROUND_IMAGE = "/model/resources/yellow_panel.png";
 
     private boolean isHidden = true;
 
+    //fungsi untuk mengeset subscene baru (background kuning ketika kita menekan tombol dalam menu)
     public SpaceRunnerSubScene() {
         super(new AnchorPane(), 600, 400);
         prefWidth(600);
@@ -38,9 +32,12 @@ public class SpaceRunnerSubScene extends SubScene {
 
         setLayoutX(1024);
         setLayoutY(180);
+
     }
 
+    //fungsi untuk menggerakan subscene (background kuning)
     public void moveSubScene(){
+
         TranslateTransition transition = new TranslateTransition();
         transition.setDuration(Duration.seconds(0.3));
         transition.setNode(this);
@@ -48,15 +45,19 @@ public class SpaceRunnerSubScene extends SubScene {
         if(isHidden){
             transition.setToX(-676);
             isHidden = false;
-        } else{
+        }else{
             transition.setToX(0);
             isHidden = true;
-        } 
+        }
+        
+
         transition.play();
+
     }
 
+    //untuk mendapatkan pane
     public AnchorPane getPane(){
         return (AnchorPane) this.getRoot();
     }
+    
 }
-

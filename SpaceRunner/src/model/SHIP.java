@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
- */
 package model;
 
-/**
- *
- * @author Ulima
- */
-
 public enum SHIP {
+
+    //encapsulation
     BLUE("view/resources/shipchooser/playerShip1_blue.png", "view/resources/shipchooser/playerLife1_blue.png"),
     GREEN("view/resources/shipchooser/playerShip1_green.png", "view/resources/shipchooser/playerLife1_green.png"),
     ORANGE("view/resources/shipchooser/playerShip1_orange.png", "view/resources/shipchooser/playerLife1_orange.png"),
@@ -18,17 +11,20 @@ public enum SHIP {
     private String urlShip;
     private String urlLife;
 
+    //constructor
     private SHIP(String urlShip, String urlLife){
         this.urlShip = urlShip;
         this.urlLife = urlLife;
     }
 
+    //getter
     public String getUrl(){
         return this.urlShip;
     }
 
+    //getter
     public String getUrlLife(){
         return urlLife;
     }
+    
 }
-

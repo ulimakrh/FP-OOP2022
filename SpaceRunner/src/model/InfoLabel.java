@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
-
-/**
- *
- * @author Ulima
- */
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,15 +12,19 @@ import javafx.scene.layout.BackgroundPosition;
 import javafx.scene.layout.BackgroundRepeat;
 import javafx.scene.text.Font;
 
-public class InfoLabel extends Label {
-    public final static String FONT_PATH = "src/model/resources/kenvector_future.ttf";
+// class untuk yang membuat label
+public class InfoLabel extends Label {//polymorphism
 
-    public final static String BACKGROUND_IMAGE = "view/resources/yellow_button13.png";
+    public final static String FONT_PATH = "src/model/resources/kenvector_future.ttf"; // encapsulation
+
+    public final static String BACKGROUND_IMAGE = "view/resources/yellow_button13.png"; // encapsulation
+
 
     /**
      * @param text
      */
-    public InfoLabel(String text) {
+    public InfoLabel(String text){//constructor
+
         setPrefWidth(380);
         setPrefHeight(49);
         setText(text);
@@ -40,15 +35,22 @@ public class InfoLabel extends Label {
         BackgroundImage backgroundImage = new BackgroundImage(new Image(BACKGROUND_IMAGE, 380, 49, false, true), BackgroundRepeat.NO_REPEAT, 
             BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, null);
 
-        setBackground(new Background(backgroundImage));      
+        setBackground(new Background(backgroundImage));
+        
     }
 
-    private void setLabelFont() {
+    public InfoLabel(){//constructor
+
+    }
+
+    private void setLabelFont(){//fungsi untuk membuat label
+
         try {
             setFont(Font.loadFont(new FileInputStream(new File(FONT_PATH)), 23));
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {//exception handling
             setFont(Font.font("Verdana", 23));
         }
 
-    }    
+    }
+    
 }

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../SpaceRunner_5025211048/src"
+		},
+		{
+			"path": "../SpaceRunner_5025211048/bin"
+		},
+		{
+			"path": "../SpaceRunner_5025211048/.vscode"
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"c:\\Users\\Ulima\\OneDrive - Institut Teknologi Sepuluh Nopember\\Dokumen\\NetBeansProjects\\zulu19.30.11-ca-fx-jdk19.0.1-win_x64\\zulu19.30.11-ca-fx-jdk19.0.1-win_x64\\lib\\javafx-swt.jar",
+			"c:\\Users\\Ulima\\OneDrive - Institut Teknologi Sepuluh Nopember\\Dokumen\\NetBeansProjects\\zulu19.30.11-ca-fx-jdk19.0.1-win_x64\\zulu19.30.11-ca-fx-jdk19.0.1-win_x64\\lib\\jrt-fs.jar"
+		]
+	}
+}
