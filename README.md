@@ -33,6 +33,11 @@ https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc1
 8. GUI
 ![2022-12-13 (12)](https://user-images.githubusercontent.com/114993076/207324632-a5fb24c9-4bfa-48a0-b689-0cd57639a44c.png)
 
+9. Interface
+https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc16ebf/SpaceRunner/src/view/GameViewManager.java#L24-L25
+
+
+
 
 Link referensi : https://youtube.com/playlist?list=PL4wcbt63yAbdtY-GOeuRjIePfUsukSJZ9
 
