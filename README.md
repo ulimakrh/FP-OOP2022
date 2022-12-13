@@ -31,7 +31,7 @@ https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc1
 https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc16ebf/SpaceRunner/src/model/SmallInfoLabel.java#L42-L44
 
 8. GUI
-![alt text](http://url/to/"C:\Users\Ulima\OneDrive\Pictures\Screenshots\2022-12-13 (12).png")
+![2022-12-13 (12)](https://user-images.githubusercontent.com/114993076/207324632-a5fb24c9-4bfa-48a0-b689-0cd57639a44c.png)
 
 
 Link referensi : https://youtube.com/playlist?list=PL4wcbt63yAbdtY-GOeuRjIePfUsukSJZ9
