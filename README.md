@@ -10,4 +10,5 @@ Pada menu utama, terdapat button untuk Play, Scores, Help, Credit, dan Exit. Jik
 
 
 Link referensi: https://youtube.com/playlist?list=PL4wcbt63yAbdtY-GOeuRjIePfUsukSJZ9
+
 Link video demo : 
