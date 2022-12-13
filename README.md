@@ -10,7 +10,7 @@ Pada menu utama, terdapat button untuk Play, Scores, Help, Credit, dan Exit. Jik
 Berikut adalah aspek OOP yang digunakan dalam game ini.
 
 1. Polymorphism
-https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc16ebf/SpaceRunner/src/model/SmallInfoLabel.java#L17-L18
+https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc16ebf/SpaceRunner/src/model/SmallInfoLabel.java#L17-L35
 
 2. Encapsulation
 https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc16ebf/SpaceRunner/src/model/SHIP.java#L5-L9
