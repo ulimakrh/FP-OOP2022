@@ -41,4 +41,4 @@ https://github.com/ulimakrh/FP-OOP2022/blob/e328bbf6aee844627a4d715b6201694abbc1
 
 Link referensi : https://youtube.com/playlist?list=PL4wcbt63yAbdtY-GOeuRjIePfUsukSJZ9
 
-Link video demo : 
+Link video demo : https://youtu.be/Erp70Q2YO0o
